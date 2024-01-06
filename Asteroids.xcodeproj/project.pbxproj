@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70051C02B49905100E1A0C0 /* OpeningScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F70051BF2B49905100E1A0C0 /* OpeningScene.sks */; };
+		F70051C22B4990EF00E1A0C0 /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70051C12B4990EF00E1A0C0 /* OpeningScene.swift */; };
+		F70051C42B4991EA00E1A0C0 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70051C32B4991EA00E1A0C0 /* Asteroid.swift */; };
+		F70051C62B49927500E1A0C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70051C52B49927500E1A0C0 /* Constants.swift */; };
 		F7F370EE2B49887A007C8275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F370ED2B49887A007C8275 /* AppDelegate.swift */; };
 		F7F370F02B49887A007C8275 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F7F370EF2B49887A007C8275 /* GameScene.sks */; };
 		F7F370F22B49887A007C8275 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F7F370F12B49887A007C8275 /* Actions.sks */; };
@@ -15,9 +19,24 @@
 		F7F370F92B49887A007C8275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F370F72B49887A007C8275 /* Main.storyboard */; };
 		F7F370FB2B49887A007C8275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F370FA2B49887A007C8275 /* Assets.xcassets */; };
 		F7F370FE2B49887A007C8275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F370FC2B49887A007C8275 /* LaunchScreen.storyboard */; };
+		F7F371172B498C5C007C8275 /* saucerSmall.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F3710D2B498C5C007C8275 /* saucerSmall.wav */; };
+		F7F371182B498C5C007C8275 /* bangSmall.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F3710E2B498C5C007C8275 /* bangSmall.wav */; };
+		F7F371192B498C5C007C8275 /* beat1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F3710F2B498C5C007C8275 /* beat1.wav */; };
+		F7F3711A2B498C5C007C8275 /* extraShip.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371102B498C5C007C8275 /* extraShip.wav */; };
+		F7F3711B2B498C5C007C8275 /* bangMedium.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371112B498C5C007C8275 /* bangMedium.wav */; };
+		F7F3711C2B498C5C007C8275 /* saucerBig.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371122B498C5C007C8275 /* saucerBig.wav */; };
+		F7F3711D2B498C5C007C8275 /* thrust.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371132B498C5C007C8275 /* thrust.wav */; };
+		F7F3711E2B498C5C007C8275 /* bangLarge.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371142B498C5C007C8275 /* bangLarge.wav */; };
+		F7F3711F2B498C5C007C8275 /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371152B498C5C007C8275 /* fire.wav */; };
+		F7F371202B498C5C007C8275 /* beat2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F371162B498C5C007C8275 /* beat2.wav */; };
+		F7F371222B498CBE007C8275 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7F371212B498CBE007C8275 /* Skia.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70051BF2B49905100E1A0C0 /* OpeningScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OpeningScene.sks; sourceTree = "<group>"; };
+		F70051C12B4990EF00E1A0C0 /* OpeningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
+		F70051C32B4991EA00E1A0C0 /* Asteroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; };
+		F70051C52B49927500E1A0C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7F370EA2B49887A007C8275 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F370ED2B49887A007C8275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F370EF2B49887A007C8275 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +46,18 @@
 		F7F370F82B49887A007C8275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F370FA2B49887A007C8275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F370FD2B49887A007C8275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7F371042B498962007C8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7F3710D2B498C5C007C8275 /* saucerSmall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = saucerSmall.wav; sourceTree = "<group>"; };
+		F7F3710E2B498C5C007C8275 /* bangSmall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bangSmall.wav; sourceTree = "<group>"; };
+		F7F3710F2B498C5C007C8275 /* beat1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat1.wav; sourceTree = "<group>"; };
+		F7F371102B498C5C007C8275 /* extraShip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = extraShip.wav; sourceTree = "<group>"; };
+		F7F371112B498C5C007C8275 /* bangMedium.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bangMedium.wav; sourceTree = "<group>"; };
+		F7F371122B498C5C007C8275 /* saucerBig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = saucerBig.wav; sourceTree = "<group>"; };
+		F7F371132B498C5C007C8275 /* thrust.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thrust.wav; sourceTree = "<group>"; };
+		F7F371142B498C5C007C8275 /* bangLarge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bangLarge.wav; sourceTree = "<group>"; };
+		F7F371152B498C5C007C8275 /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
+		F7F371162B498C5C007C8275 /* beat2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat2.wav; sourceTree = "<group>"; };
+		F7F371212B498CBE007C8275 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +90,96 @@
 		F7F370EC2B49887A007C8275 /* Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				F7F371042B498962007C8275 /* Info.plist */,
 				F7F370ED2B49887A007C8275 /* AppDelegate.swift */,
+				F7F370F52B49887A007C8275 /* GameViewController.swift */,
+				F7F370F72B49887A007C8275 /* Main.storyboard */,
+				F70051C52B49927500E1A0C0 /* Constants.swift */,
+				F7F3710A2B498A03007C8275 /* Scenes */,
+				F7F371052B498992007C8275 /* Resources */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		F7F371052B498992007C8275 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7F371082B4989B3007C8275 /* Graphics */,
+				F7F371072B4989AA007C8275 /* Sounds */,
+				F7F371062B4989A0007C8275 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7F371062B4989A0007C8275 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F7F371212B498CBE007C8275 /* Skia.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7F371072B4989AA007C8275 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F7F371142B498C5C007C8275 /* bangLarge.wav */,
+				F7F371112B498C5C007C8275 /* bangMedium.wav */,
+				F7F3710E2B498C5C007C8275 /* bangSmall.wav */,
+				F7F3710F2B498C5C007C8275 /* beat1.wav */,
+				F7F371162B498C5C007C8275 /* beat2.wav */,
+				F7F371102B498C5C007C8275 /* extraShip.wav */,
+				F7F371152B498C5C007C8275 /* fire.wav */,
+				F7F371122B498C5C007C8275 /* saucerBig.wav */,
+				F7F3710D2B498C5C007C8275 /* saucerSmall.wav */,
+				F7F371132B498C5C007C8275 /* thrust.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F7F371082B4989B3007C8275 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				F7F370FA2B49887A007C8275 /* Assets.xcassets */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		F7F371092B4989CA007C8275 /* GamsScene */ = {
+			isa = PBXGroup;
+			children = (
 				F7F370EF2B49887A007C8275 /* GameScene.sks */,
 				F7F370F12B49887A007C8275 /* Actions.sks */,
 				F7F370F32B49887A007C8275 /* GameScene.swift */,
-				F7F370F52B49887A007C8275 /* GameViewController.swift */,
-				F7F370F72B49887A007C8275 /* Main.storyboard */,
-				F7F370FA2B49887A007C8275 /* Assets.xcassets */,
+				F70051C32B4991EA00E1A0C0 /* Asteroid.swift */,
+			);
+			path = GamsScene;
+			sourceTree = "<group>";
+		};
+		F7F3710A2B498A03007C8275 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F7F3710C2B498A29007C8275 /* LaunchScene */,
+				F7F3710B2B498A16007C8275 /* OpeningScene */,
+				F7F371092B4989CA007C8275 /* GamsScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F7F3710B2B498A16007C8275 /* OpeningScene */ = {
+			isa = PBXGroup;
+			children = (
+				F70051BF2B49905100E1A0C0 /* OpeningScene.sks */,
+				F70051C12B4990EF00E1A0C0 /* OpeningScene.swift */,
+			);
+			path = OpeningScene;
+			sourceTree = "<group>";
+		};
+		F7F3710C2B498A29007C8275 /* LaunchScene */ = {
+			isa = PBXGroup;
+			children = (
 				F7F370FC2B49887A007C8275 /* LaunchScreen.storyboard */,
 			);
-			path = Asteroids;
+			path = LaunchScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,11 +240,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F371202B498C5C007C8275 /* beat2.wav in Resources */,
 				F7F370F92B49887A007C8275 /* Main.storyboard in Resources */,
+				F7F371172B498C5C007C8275 /* saucerSmall.wav in Resources */,
+				F70051C02B49905100E1A0C0 /* OpeningScene.sks in Resources */,
+				F7F3711F2B498C5C007C8275 /* fire.wav in Resources */,
+				F7F3711A2B498C5C007C8275 /* extraShip.wav in Resources */,
+				F7F371192B498C5C007C8275 /* beat1.wav in Resources */,
+				F7F3711D2B498C5C007C8275 /* thrust.wav in Resources */,
 				F7F370F02B49887A007C8275 /* GameScene.sks in Resources */,
+				F7F3711B2B498C5C007C8275 /* bangMedium.wav in Resources */,
 				F7F370FB2B49887A007C8275 /* Assets.xcassets in Resources */,
+				F7F3711C2B498C5C007C8275 /* saucerBig.wav in Resources */,
+				F7F371182B498C5C007C8275 /* bangSmall.wav in Resources */,
+				F7F371222B498CBE007C8275 /* Skia.ttf in Resources */,
 				F7F370FE2B49887A007C8275 /* LaunchScreen.storyboard in Resources */,
 				F7F370F22B49887A007C8275 /* Actions.sks in Resources */,
+				F7F3711E2B498C5C007C8275 /* bangLarge.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +270,9 @@
 				F7F370F42B49887A007C8275 /* GameScene.swift in Sources */,
 				F7F370F62B49887A007C8275 /* GameViewController.swift in Sources */,
 				F7F370EE2B49887A007C8275 /* AppDelegate.swift in Sources */,
+				F70051C22B4990EF00E1A0C0 /* OpeningScene.swift in Sources */,
+				F70051C42B4991EA00E1A0C0 /* Asteroid.swift in Sources */,
+				F70051C62B49927500E1A0C0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +426,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Asteroids;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,9 +442,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130Games.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -328,12 +461,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Asteroids;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,9 +477,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130Games.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
