@@ -8,7 +8,8 @@
 import Foundation
 
 func deg2rad(degrees: Double) -> Double {
-    degrees * .pi / 180
+    degrees * .pi/180
+
 }
 
 func rad2deg(radians: Double) -> Double {

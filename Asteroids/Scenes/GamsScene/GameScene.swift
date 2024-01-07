@@ -5,6 +5,7 @@
 //  Created by Drew Coder on 1/6/24.
 //
 
+import Foundation
 import SpriteKit
 
 class GameScene: SKScene {
@@ -32,6 +33,8 @@ class GameScene: SKScene {
     let rotationFactor: CGFloat = 4 // larger number will cause faster rotation
     var xVector: CGFloat = 0
     var yVector: CGFloat = 0
+    var rotationVector: CGVector = .zero
+    
     
     
     
@@ -90,10 +93,10 @@ class GameScene: SKScene {
     //MARK: - NODE METHODS
     func setupLabelsAndButtons() {
         left = childNode(withName: "left") as? SKSpriteNode
-        left = childNode(withName: "right") as? SKSpriteNode
-        left = childNode(withName: "hyper") as? SKSpriteNode
-        left = childNode(withName: "thrust") as? SKSpriteNode
-        left = childNode(withName: "fire") as? SKSpriteNode
+        right = childNode(withName: "right") as? SKSpriteNode
+        hyper = childNode(withName: "hyper") as? SKSpriteNode
+        thrust = childNode(withName: "thrust") as? SKSpriteNode
+        fire = childNode(withName: "fire") as? SKSpriteNode
     }
     
     func createPlayer(atX: Double, atY: Double) {
